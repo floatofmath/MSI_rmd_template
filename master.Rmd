@@ -1,9 +1,3 @@
-<!--pandoc
-t: html
-template: report.html
-css: vignette.css
-self-contained: 
--->
 ---
 title: 
 author: Florian Klinglmueller
@@ -11,9 +5,14 @@ date:
 client: 
 project: 
 number: 
+email: florian.klinglmueller@meduniwien.ac.at
 review: 
-email: 
-...
+output: bt88.03.704::html_statement
+---
+
+```{r,echo=F,results='hide'}
+knitr::opts_chunk$set(echo=FALSE,warning=FALSE,results='hide',fig.width=7,fig.height=7,message=FALSE)
+```
 
 ## Section 1
 
